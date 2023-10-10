@@ -6,6 +6,7 @@ public class PessoaFisica extends Pessoa {
     public String cpf;
     public LocalDate dataDeNascimento;
 
+    @Override
     public float CalcularImposto(float rendimento) {
 
         if (rendimento <= 1500) {

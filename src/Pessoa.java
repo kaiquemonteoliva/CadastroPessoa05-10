@@ -7,7 +7,7 @@ public class Pessoa {
     public Endereco endereco;
 
 //    Metodo
-    public float PagarImposto(float rendimento){
+    public float CalcularImposto(float rendimento){
         return rendimento;
     };
 
